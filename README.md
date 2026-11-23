@@ -158,6 +158,8 @@ Memos are in `reports/memos/`. The worked numerical example is also in `notebook
 
 n.m. means EBITDA is not positive, so the multiple is not used.
 
+The thresholds are calibrated like a bank's internal scale for middle-market term lending. They are stricter than agency ratings for large-cap issuers. The composite is not a rating. PepsiCo and Honeywell carry A-range agency ratings. An A-rated issuer at about 3.3x Debt/EBITDA scoring Elevated Risk is the expected result on this scale. PepsiCo, at 3.29x, is that case.
+
 PepsiCo's coverage is in the top bucket, at 8.55x, using cash interest paid of $1,748 million rather than the $1,121 million net interest-and-other line. The composite is still Elevated Risk because Debt/EBITDA of 3.29x is above the 2.50x line and the current ratio is below 1. That current ratio is structural for this issuer. Commercial paper and current maturities sit in current liabilities. The scorecard records it at a 5 percent weight rather than ignoring it.
 
 Honeywell's coverage is 7.08x. Debt/EBITDA of 3.63x is past 3.50x, so that line scores in the bottom bucket. The fiscal 2025 10-K describes the note issuance that produced the higher balance. The disclosed A / A / A2 ratings are the issuer's disclosure. They are not an output of this scale.
@@ -220,7 +222,7 @@ The cash-flow line "depreciation, amortization, and other" in that filing is $34
 
 ## Assumptions and limitations
 
-The scale is a published set of round numbers. It is not fitted to these five issuers, and a different set of cutoffs would move PepsiCo and Honeywell between Elevated Risk and Acceptable without changing the underlying statements. The contribution table is there so the result can be taken apart.
+The thresholds are calibrated like a bank's internal scale for middle-market term lending. They are stricter than agency ratings for large-cap issuers, and the composite is not a rating. PepsiCo and Honeywell carry A-range agency ratings. An A-rated issuer at about 3.3x Debt/EBITDA scoring Elevated Risk is expected under this scale. The cutoffs are a published set of round numbers. They were not fitted to these five issuers. A different set of cutoffs would move PepsiCo and Honeywell between Elevated Risk and Acceptable without changing the underlying statements. The contribution table is there so the result can be taken apart.
 
 Leases are out of debt. That understates leverage where lease liabilities are large. Microsoft's finance leases are larger than its funded debt. Carnival's operating leases are smaller than its funded debt but they are still a claim. Neither is in the ratio.
 
@@ -230,7 +232,7 @@ EBITDA is unadjusted. Kraft Heinz is the case that makes the choice visible. A c
 
 PepsiCo's income-statement interest tag is a net line. Coverage uses cash interest paid, and both numbers are in the memo. Honeywell's interest line is "interest and other financial charges." Carnival's line is interest expense, net of capitalized interest. The tag used is on each row.
 
-Some facts are rounded in the filing. Microsoft's cash interest paid is tagged in tenths of a billion. The coverage ratio uses the more precise income-statement interest expense, which is lower than a 25 percent gap the other way, so the cash figure does not replace it.
+Some facts are rounded in the filing. Microsoft's cash interest paid is tagged in tenths of a billion. Cash interest paid replaces the income-statement interest figure only when the tag is the generic `InterestExpense` concept and cash interest paid exceeds that amount by more than 25 percent. A named tag is kept. Microsoft's interest is tagged `InterestExpenseNonoperating`, so the 25 percent test is not applied and coverage uses the income-statement amount. Cash interest paid is also lower than that amount, $1,500 million against $3,051 million in fiscal 2026, so it would not have replaced the income-statement figure under the test.
 
 The latest 10-K comparative column is the figure of record. Where it was checked against the original filing, as in Microsoft fiscal 2025, the amounts match. A restatement would show up as a difference and would be kept, with the later accession cited.
 
