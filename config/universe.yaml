@@ -1,0 +1,68 @@
+# Five US non-financial registrants. Fiscal year is the year of the period end.
+# Profiles are described from the Form 10-K figures in this project, not from a rating model.
+min_fiscal_year: 2021
+max_years: 5
+
+companies:
+  - ticker: MSFT
+    name: Microsoft Corporation
+    cik: "0000789019"
+    sector: Software and cloud services
+    profile: Strongest balance sheet in the set on reported funded leverage and interest coverage.
+    business: Microsoft develops and sells software, cloud services, and devices.
+    analytical_note: >
+      Finance lease liabilities are excluded from total debt. At this issuer they
+      are large relative to funded debt, so a lease-adjusted measure would be
+      higher than the ratio reported here. Net debt deducts cash and cash
+      equivalents only. Short-term investments are disclosed and are not deducted.
+  - ticker: PEP
+    name: PepsiCo, Inc.
+    cik: "0000077476"
+    sector: Beverages and convenient foods
+    profile: Stable consumer cash flow with moderate funded leverage.
+    business: PepsiCo produces beverages and convenient foods.
+    analytical_note: >
+      The income-statement interest tag for this issuer is the line "net interest
+      expense and other." When cash interest paid is materially higher, coverage
+      uses cash interest paid and both amounts are shown. A current ratio below
+      1 is structural: current liabilities include commercial paper and current
+      debt maturities. The scorecard records that result at its published weight.
+  - ticker: HON
+    name: Honeywell International Inc.
+    cik: "0000773840"
+    sector: Diversified industrials
+    profile: Mid investment-grade industrial credit, with leverage higher after recent note issuance.
+    business: Honeywell is a diversified industrial company.
+    analytical_note: >
+      The fiscal 2025 Form 10-K discloses long-term ratings of A (S&P), A (Fitch),
+      and A2 (Moody's), with the outlook row reading Watch Negative, Watch Negative,
+      and Stable in that column order. Those are the issuer's disclosures, not a
+      result of this scorecard. Finance lease liabilities sit inside the long-term
+      debt lines and are subtracted. Operating leases are not added. Consolidated
+      totals include the effects of portfolio changes described in the 10-K.
+  - ticker: KHC
+    name: The Kraft Heinz Company
+    cik: "0001637459"
+    sector: Packaged foods
+    profile: Low investment-grade packaged-food credit whose latest reported operating income is negative.
+    business: Kraft Heinz manufactures and sells packaged foods.
+    analytical_note: >
+      The fiscal 2025 Form 10-K states that long-term debt is rated BBB with a
+      stable outlook by S&P Global Ratings, BBB with a rating watch negative
+      outlook by Fitch Ratings, and Baa2 with ratings under review for downgrade
+      by Moody's Investor Services, Inc. Operating income is after impairment
+      losses. This model does not add those losses back to EBITDA. Cash from
+      operations is shown separately so a non-cash charge is not read as a cash shortfall.
+  - ticker: CCL
+    name: Carnival Corporation & plc
+    cik: "0000815097"
+    sector: Cruise and leisure
+    profile: Leveraged credit whose EBITDA has recovered while funded debt remains high.
+    business: Carnival operates cruise lines.
+    analytical_note: >
+      Total debt is the carrying amount of current and noncurrent long-term debt.
+      The principal maturity table in the 10-K is higher than that carrying amount
+      by unamortized discounts and issuance costs; the model uses the carrying
+      amount. Operating lease liabilities are excluded. The interest line is
+      interest expense, net of capitalized interest. No agency rating is stated
+      in this note.

@@ -1,0 +1,42 @@
+# FICTIONAL borrower. Not a real company, not an SEC registrant, and not a bank client.
+# Every dollar figure in this file is an assumption. Nothing here is a reported 10-K amount.
+status: FICTIONAL
+legal_name: "FICTIONAL Northbridge Precision Components, LLC"
+short_name: "FICTIONAL Northbridge"
+business: >
+  FICTIONAL middle-market manufacturer of precision metal components for
+  industrial equipment OEMs. The company, the facility, and every figure
+  are hypothetical.
+request:
+  facility: Senior secured first-lien term loan
+  amount_requested: 40000000
+  tenor_years: 5
+  amortization: straight_line_annual
+  coupon_rate: 0.085
+  coupon_description: >
+    Illustrative fixed coupon of 8.50 percent. Not a quoted rate and not a
+    SOFR margin from a live transaction.
+use_of_proceeds:
+  refinance_existing_shareholder_note: 6000000
+  remainder: General corporate purposes, including a maintenance-and-growth capital program.
+existing_debt_after_close: 0
+financials:
+  revenue: 92000000
+  gross_profit: 32200000
+  operating_income: 11400000
+  depreciation_and_amortization: 2600000
+  maintenance_capex: 1900000
+  cash_taxes: 2100000
+  cash: 4200000
+sizing:
+  max_total_leverage: 3.00
+  min_dscr: 1.35
+  round_down_to: 100000
+covenants:
+  max_total_leverage: 3.50
+  min_interest_coverage: 2.50
+  min_dscr: 1.25
+sensitivity:
+  ebitda_shocks: [-0.10, -0.20, -0.30]
+  rate_shocks_bps: [100, 200]
+  hold_capex_and_cash_taxes_constant: true

@@ -1,0 +1,27 @@
+ticker,company,accession,form,report_date,filed,filing_url
+MSFT,Microsoft Corporation,0001564590-21-039151,10-K,2021-06-30,2021-07-29,https://www.sec.gov/Archives/edgar/data/789019/000156459021039151/msft-10k_20210630.htm
+MSFT,Microsoft Corporation,0001564590-22-026876,10-K,2022-06-30,2022-07-28,https://www.sec.gov/Archives/edgar/data/789019/000156459022026876/msft-10k_20220630.htm
+MSFT,Microsoft Corporation,0000950170-23-035122,10-K,2023-06-30,2023-07-27,https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm
+MSFT,Microsoft Corporation,0000950170-24-087843,10-K,2024-06-30,2024-07-30,https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+MSFT,Microsoft Corporation,0000950170-25-100235,10-K,2025-06-30,2025-07-30,https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm
+MSFT,Microsoft Corporation,0001193125-26-323660,10-K,2026-06-30,2026-07-29,https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm
+PEP,"PepsiCo, Inc.",0000077476-22-000010,10-K,2021-12-25,2022-02-10,https://www.sec.gov/Archives/edgar/data/77476/000007747622000010/pep-20211225.htm
+PEP,"PepsiCo, Inc.",0000077476-23-000007,10-K,2022-12-31,2023-02-09,https://www.sec.gov/Archives/edgar/data/77476/000007747623000007/pep-20221231.htm
+PEP,"PepsiCo, Inc.",0000077476-24-000008,10-K,2023-12-30,2024-02-09,https://www.sec.gov/Archives/edgar/data/77476/000007747624000008/pep-20231230.htm
+PEP,"PepsiCo, Inc.",0000077476-25-000007,10-K,2024-12-28,2025-02-04,https://www.sec.gov/Archives/edgar/data/77476/000007747625000007/pep-20241228.htm
+PEP,"PepsiCo, Inc.",0000077476-26-000007,10-K,2025-12-27,2026-02-03,https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm
+HON,Honeywell International Inc.,0000773840-22-000018,10-K,2021-12-31,2022-02-11,https://www.sec.gov/Archives/edgar/data/773840/000077384022000018/hon-20211231.htm
+HON,Honeywell International Inc.,0000773840-23-000013,10-K,2022-12-31,2023-02-10,https://www.sec.gov/Archives/edgar/data/773840/000077384023000013/hon-20221231.htm
+HON,Honeywell International Inc.,0000773840-24-000014,10-K,2023-12-31,2024-02-16,https://www.sec.gov/Archives/edgar/data/773840/000077384024000014/hon-20231231.htm
+HON,Honeywell International Inc.,0000773840-25-000010,10-K,2024-12-31,2025-02-14,https://www.sec.gov/Archives/edgar/data/773840/000077384025000010/hon-20241231.htm
+HON,Honeywell International Inc.,0000773840-26-000013,10-K,2025-12-31,2026-02-17,https://www.sec.gov/Archives/edgar/data/773840/000077384026000013/hon-20251231.htm
+KHC,The Kraft Heinz Company,0001637459-22-000018,10-K,2021-12-25,2022-02-17,https://www.sec.gov/Archives/edgar/data/1637459/000163745922000018/khc-20211225.htm
+KHC,The Kraft Heinz Company,0001637459-23-000009,10-K,2022-12-31,2023-02-16,https://www.sec.gov/Archives/edgar/data/1637459/000163745923000009/khc-20221231.htm
+KHC,The Kraft Heinz Company,0001637459-24-000018,10-K,2023-12-30,2024-02-15,https://www.sec.gov/Archives/edgar/data/1637459/000163745924000018/khc-20231230.htm
+KHC,The Kraft Heinz Company,0001637459-25-000011,10-K,2024-12-28,2025-02-13,https://www.sec.gov/Archives/edgar/data/1637459/000163745925000011/khc-20241228.htm
+KHC,The Kraft Heinz Company,0001637459-26-000009,10-K,2025-12-27,2026-02-12,https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/khc-20251227.htm
+CCL,Carnival Corporation & plc,0000815097-22-000009,10-K,2021-11-30,2022-01-27,https://www.sec.gov/Archives/edgar/data/815097/000081509722000009/ccl-20211130.htm
+CCL,Carnival Corporation & plc,0000815097-23-000012,10-K,2022-11-30,2023-01-27,https://www.sec.gov/Archives/edgar/data/815097/000081509723000012/ccl-20221130.htm
+CCL,Carnival Corporation & plc,0000815097-24-000011,10-K,2023-11-30,2024-01-26,https://www.sec.gov/Archives/edgar/data/815097/000081509724000011/ccl-20231130.htm
+CCL,Carnival Corporation & plc,0000815097-25-000007,10-K,2024-11-30,2025-01-27,https://www.sec.gov/Archives/edgar/data/815097/000081509725000007/ccl-20241130.htm
+CCL,Carnival Corporation & plc,0000815097-26-000007,10-K,2025-11-30,2026-01-27,https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm
