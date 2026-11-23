@@ -1,0 +1,165 @@
+# Published credit scorecard. Weights sum to 1.00.
+# Points: 4 strong, 3 acceptable, 2 elevated, 1 weak.
+# A lower-is-better ratio scores the first bucket whose max is greater than or equal to the value.
+# A higher-is-better ratio scores the first bucket whose min is less than or equal to the value.
+# The last bucket has a null bound and catches every remaining value.
+# Composite = sum of (effective weight x points). Effective weight equals the published
+# weight when every scored ratio is available, and is renormalized across available
+# ratios when a ratio is missing. A ratio that is not meaningful is still scored
+# (usually Weak); it is not dropped.
+# Category cutoffs are inclusive at the bottom of the better category.
+#
+# Special cases, applied before the buckets:
+# - EBITDA not positive: Debt/EBITDA and Net Debt/EBITDA score 1. The multiple is not meaningful.
+# - Interest zero or negative and EBITDA positive: both coverage ratios score 4.
+#   Coverage is not a constraint. If EBITDA is not positive, they score 1.
+# - Total debt zero and the cash-flow numerator positive: CFO/Debt and FCF/Debt score 4.
+# - Debt plus equity not positive: Debt/capitalization scores 1.
+
+categories:
+  - name: Strong
+    minimum_composite: 3.40
+  - name: Acceptable
+    minimum_composite: 2.60
+  - name: Elevated Risk
+    minimum_composite: 1.80
+  - name: Weak
+    minimum_composite: null
+
+ratios:
+  - id: debt_to_ebitda
+    label: Debt / EBITDA
+    direction: lower
+    weight: 0.20
+    buckets:
+      - name: Strong
+        max: 1.5
+        points: 4
+      - name: Acceptable
+        max: 2.5
+        points: 3
+      - name: Elevated
+        max: 3.5
+        points: 2
+      - name: Weak
+        max: null
+        points: 1
+  - id: net_debt_to_ebitda
+    label: Net debt / EBITDA
+    direction: lower
+    weight: 0.15
+    buckets:
+      - name: Strong
+        max: 0.5
+        points: 4
+      - name: Acceptable
+        max: 1.5
+        points: 3
+      - name: Elevated
+        max: 3.0
+        points: 2
+      - name: Weak
+        max: null
+        points: 1
+  - id: ebitda_to_interest
+    label: EBITDA / Interest
+    direction: higher
+    weight: 0.20
+    buckets:
+      - name: Strong
+        min: 8.0
+        points: 4
+      - name: Acceptable
+        min: 4.0
+        points: 3
+      - name: Elevated
+        min: 2.0
+        points: 2
+      - name: Weak
+        min: null
+        points: 1
+  - id: ebitda_minus_capex_to_interest
+    label: (EBITDA - capex) / Interest
+    direction: higher
+    weight: 0.10
+    buckets:
+      - name: Strong
+        min: 6.0
+        points: 4
+      - name: Acceptable
+        min: 3.0
+        points: 3
+      - name: Elevated
+        min: 1.5
+        points: 2
+      - name: Weak
+        min: null
+        points: 1
+  - id: cfo_to_debt
+    label: CFO / Debt
+    direction: higher
+    weight: 0.15
+    buckets:
+      - name: Strong
+        min: 0.40
+        points: 4
+      - name: Acceptable
+        min: 0.25
+        points: 3
+      - name: Elevated
+        min: 0.15
+        points: 2
+      - name: Weak
+        min: null
+        points: 1
+  - id: fcf_to_debt
+    label: FCF / Debt
+    direction: higher
+    weight: 0.05
+    buckets:
+      - name: Strong
+        min: 0.20
+        points: 4
+      - name: Acceptable
+        min: 0.10
+        points: 3
+      - name: Elevated
+        min: 0.00
+        points: 2
+      - name: Weak
+        min: null
+        points: 1
+  - id: debt_to_capitalization
+    label: Debt / capitalization
+    direction: lower
+    weight: 0.10
+    buckets:
+      - name: Strong
+        max: 0.25
+        points: 4
+      - name: Acceptable
+        max: 0.40
+        points: 3
+      - name: Elevated
+        max: 0.55
+        points: 2
+      - name: Weak
+        max: null
+        points: 1
+  - id: current_ratio
+    label: Current ratio
+    direction: higher
+    weight: 0.05
+    buckets:
+      - name: Strong
+        min: 1.50
+        points: 4
+      - name: Acceptable
+        min: 1.20
+        points: 3
+      - name: Elevated
+        min: 1.00
+        points: 2
+      - name: Weak
+        min: null
+        points: 1
