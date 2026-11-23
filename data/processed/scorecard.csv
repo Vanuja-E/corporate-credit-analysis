@@ -1,0 +1,41 @@
+ticker,fiscal_year,period_end,ratio,value,published_weight,effective_weight,points,bucket,weighted_points,note,composite,category
+MSFT,2026,2026-06-30,Debt / EBITDA,0.20744760267096382,0.2,0.2,4,Strong,0.8,Scored on the published scale.,3.95,Strong
+MSFT,2026,2026-06-30,Net debt / EBITDA,0.09966690177463614,0.15,0.15,4,Strong,0.6,Scored on the published scale.,3.95,Strong
+MSFT,2026,2026-06-30,EBITDA / Interest,63.66338905276958,0.2,0.2,4,Strong,0.8,Scored on the published scale.,3.95,Strong
+MSFT,2026,2026-06-30,(EBITDA - capex) / Interest,25.6601114388725,0.1,0.1,4,Strong,0.4,Scored on the published scale.,3.95,Strong
+MSFT,2026,2026-06-30,CFO / Debt,4.54000595622177,0.15,0.15,4,Strong,0.6,Scored on the published scale.,3.95,Strong
+MSFT,2026,2026-06-30,FCF / Debt,1.6624559487764927,0.05,0.05,4,Strong,0.2,Scored on the published scale.,3.95,Strong
+MSFT,2026,2026-06-30,Debt / capitalization,0.08347956517865837,0.1,0.1,4,Strong,0.4,Scored on the published scale.,3.95,Strong
+MSFT,2026,2026-06-30,Current ratio,1.2303272619576484,0.05,0.05,3,Acceptable,0.15000000000000002,Scored on the published scale.,3.95,Strong
+PEP,2025,2025-12-27,Debt / EBITDA,3.289985952237608,0.2,0.2,2,Elevated,0.4,Scored on the published scale.,2.5,Elevated Risk
+PEP,2025,2025-12-27,Net debt / EBITDA,2.6773028296207104,0.15,0.15,2,Elevated,0.3,Scored on the published scale.,2.5,Elevated Risk
+PEP,2025,2025-12-27,EBITDA / Interest,8.552059496567505,0.2,0.2,4,Strong,0.8,Scored on the published scale.,2.5,Elevated Risk
+PEP,2025,2025-12-27,(EBITDA - capex) / Interest,6.026315789473684,0.1,0.1,4,Strong,0.4,Scored on the published scale.,2.5,Elevated Risk
+PEP,2025,2025-12-27,CFO / Debt,0.2457606441380993,0.15,0.15,2,Elevated,0.3,Scored on the published scale.,2.5,Elevated Risk
+PEP,2025,2025-12-27,FCF / Debt,0.1559920296043268,0.05,0.05,3,Acceptable,0.15000000000000002,Scored on the published scale.,2.5,Elevated Risk
+PEP,2025,2025-12-27,Debt / capitalization,0.7067597861700293,0.1,0.1,1,Weak,0.1,Scored on the published scale.,2.5,Elevated Risk
+PEP,2025,2025-12-27,Current ratio,0.8530399218654621,0.05,0.05,1,Weak,0.05,Scored on the published scale.,2.5,Elevated Risk
+HON,2025,2025-12-31,Debt / EBITDA,3.6275354703100366,0.2,0.2,1,Weak,0.2,Scored on the published scale.,2.2,Elevated Risk
+HON,2025,2025-12-31,Net debt / EBITDA,2.3151865475564897,0.15,0.15,2,Elevated,0.3,Scored on the published scale.,2.2,Elevated Risk
+HON,2025,2025-12-31,EBITDA / Interest,7.079613095238095,0.2,0.2,3,Acceptable,0.6000000000000001,Scored on the published scale.,2.2,Elevated Risk
+HON,2025,2025-12-31,(EBITDA - capex) / Interest,6.345982142857143,0.1,0.1,4,Strong,0.4,Scored on the published scale.,2.2,Elevated Risk
+HON,2025,2025-12-31,CFO / Debt,0.1856530304786186,0.15,0.15,2,Elevated,0.3,Scored on the published scale.,2.2,Elevated Risk
+HON,2025,2025-12-31,FCF / Debt,0.1570865685479198,0.05,0.05,3,Acceptable,0.15000000000000002,Scored on the published scale.,2.2,Elevated Risk
+HON,2025,2025-12-31,Debt / capitalization,0.712845931433292,0.1,0.1,1,Weak,0.1,Scored on the published scale.,2.2,Elevated Risk
+HON,2025,2025-12-31,Current ratio,1.2978132741095072,0.05,0.05,3,Acceptable,0.15000000000000002,Scored on the published scale.,2.2,Elevated Risk
+KHC,2025,2025-12-27,Debt / EBITDA,,0.2,0.2,1,Weak,0.2,EBITDA is not positive. The leverage multiple is not meaningful.,1.5,Weak
+KHC,2025,2025-12-27,Net debt / EBITDA,,0.15,0.15,1,Weak,0.15,EBITDA is not positive. The leverage multiple is not meaningful.,1.5,Weak
+KHC,2025,2025-12-27,EBITDA / Interest,,0.2,0.2,1,Weak,0.2,"EBITDA is not positive, so coverage does not support the interest burden.",1.5,Weak
+KHC,2025,2025-12-27,(EBITDA - capex) / Interest,,0.1,0.1,1,Weak,0.1,"EBITDA is not positive, so coverage does not support the interest burden.",1.5,Weak
+KHC,2025,2025-12-27,CFO / Debt,0.21188090602592716,0.15,0.15,2,Elevated,0.3,Scored on the published scale.,1.5,Weak
+KHC,2025,2025-12-27,FCF / Debt,0.17384491191414597,0.05,0.05,3,Acceptable,0.15000000000000002,Scored on the published scale.,1.5,Weak
+KHC,2025,2025-12-27,Debt / capitalization,0.3357460580648247,0.1,0.1,3,Acceptable,0.30000000000000004,Scored on the published scale.,1.5,Weak
+KHC,2025,2025-12-27,Current ratio,1.1536796536796536,0.05,0.05,2,Elevated,0.1,Scored on the published scale.,1.5,Weak
+CCL,2025,2025-11-30,Debt / EBITDA,3.6628626426509006,0.2,0.2,1,Weak,0.2,Scored on the published scale.,1.7000000000000002,Weak
+CCL,2025,2025-11-30,Net debt / EBITDA,3.3977725835281176,0.15,0.15,1,Weak,0.15,Scored on the published scale.,1.7000000000000002,Weak
+CCL,2025,2025-11-30,EBITDA / Interest,5.391401037805782,0.2,0.2,3,Acceptable,0.6000000000000001,Scored on the published scale.,1.7000000000000002,Weak
+CCL,2025,2025-11-30,(EBITDA - capex) / Interest,2.714603409933284,0.1,0.1,2,Elevated,0.2,Scored on the published scale.,1.7000000000000002,Weak
+CCL,2025,2025-11-30,CFO / Debt,0.2334084084084084,0.15,0.15,2,Elevated,0.3,Scored on the published scale.,1.7000000000000002,Weak
+CCL,2025,2025-11-30,FCF / Debt,0.09786036036036036,0.05,0.05,2,Elevated,0.1,Scored on the published scale.,1.7000000000000002,Weak
+CCL,2025,2025-11-30,Debt / capitalization,0.6844106463878327,0.1,0.1,1,Weak,0.1,Scored on the published scale.,1.7000000000000002,Weak
+CCL,2025,2025-11-30,Current ratio,0.3222578673999389,0.05,0.05,1,Weak,0.05,Scored on the published scale.,1.7000000000000002,Weak
